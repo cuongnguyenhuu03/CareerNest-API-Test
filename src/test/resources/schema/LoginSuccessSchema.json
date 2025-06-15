@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "statusCode": {
+      "type": "integer"
+    },
+    "message": {
+      "type": "string"
+    },
+    "error": {
+      "type": ["null", "string"]
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "user": {
+          "type": "object",
+          "properties": {
+            "id": { "type": "integer" },
+            "email": { "type": "string", "format": "email" },
+            "firstName": { "type": "string" },
+            "lastName": { "type": "string" },
+            "role": {
+              "type": "object",
+              "properties": {
+                "id": { "type": "integer" },
+                "createdAt": { "type": "number" },
+                "updatedAt": { "type": ["number", "null"] },
+                "createdBy": { "type": "string" },
+                "updatedBy": { "type": ["string", "null"] },
+                "name": { "type": "string" },
+                "description": { "type": "string" },
+                "active": { "type": "boolean" },
+                "permissions": {
+                  "type": "array",
+                  "items": {}
+                }
+              },
+              "required": [
+                "id", "createdAt", "updatedAt", "createdBy",
+                "updatedBy", "name", "description", "active", "permissions"
+              ]
+            }
+          },
+          "required": ["id", "email", "firstName", "lastName", "role"]
+        },
+        "access_token": {
+          "type": "string"
+        }
+      },
+      "required": ["user", "access_token"]
+    }
+  },
+  "required": ["statusCode", "message", "error", "data"]
+}
