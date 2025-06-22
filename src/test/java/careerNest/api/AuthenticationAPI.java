@@ -1,12 +1,10 @@
 package careerNest.api;
 
-import careerNest.constants.ApiEndpoint;
+import careerNest.base.ApiEndpoint;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-
-import java.util.Map;
 
 public class AuthenticationAPI {
 
@@ -18,9 +16,8 @@ public class AuthenticationAPI {
                 .contentType("application/json")
                 .body(body)
                 .when()
-                    .post("/api/v1/auth/login");
+                    .post(ApiEndpoint.LOGIN);
     }
-
     public static Response register() {
         return RestAssured.given()
                 .contentType("application/json")

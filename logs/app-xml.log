@@ -1,0 +1,42 @@
+[INFO ] 22-06-2025 09:03:41 [main] LogUtils - Login
+[INFO ] 22-06-2025 09:05:28 [main] LogUtils - Login
+[INFO ] 22-06-2025 09:18:48 [main] LogUtils - Login
+[INFO ] 22-06-2025 09:25:04 [main] LogUtils - Login
+[INFO ] 22-06-2025 09:29:53 [main] LogUtils - Login
+[INFO ] 22-06-2025 09:31:20 [main] LogUtils - Login
+[INFO ] 22-06-2025 09:47:38 [main] LogUtils - ======== Test Suite started: FirstTest ========
+[INFO ] 22-06-2025 09:47:38 [main] LogUtils - ---------- Test started: LoginWithInvalidEmail ----------
+[INFO ] 22-06-2025 09:47:43 [main] LogUtils - Test PASSED: LoginWithInvalidEmail
+[INFO ] 22-06-2025 09:47:43 [main] LogUtils - ---------- Test started: LoginWithWrongPassword ----------
+[INFO ] 22-06-2025 09:47:44 [main] LogUtils - Test PASSED: LoginWithWrongPassword
+[INFO ] 22-06-2025 09:47:44 [main] LogUtils - ---------- Test started: testLoginSuccess ----------
+[INFO ] 22-06-2025 09:47:44 [main] LogUtils - Login
+[INFO ] 22-06-2025 09:47:44 [main] LogUtils - Test PASSED: testLoginSuccess
+[INFO ] 22-06-2025 09:47:44 [main] LogUtils - ======== Test Suite finished: FirstTest ========
+[INFO ] 22-06-2025 11:05:31 [main] LogUtils - ======== Test Suite started: FirstTest ========
+[INFO ] 22-06-2025 11:05:32 [main] LogUtils - ---------- Test started: LoginWithInvalidEmail ----------
+[INFO ] 22-06-2025 11:05:36 [main] LogUtils - Test PASSED: LoginWithInvalidEmail
+[INFO ] 22-06-2025 11:05:36 [main] LogUtils - ---------- Test started: LoginWithWrongPassword ----------
+[INFO ] 22-06-2025 11:05:36 [main] LogUtils - Test PASSED: LoginWithWrongPassword
+[INFO ] 22-06-2025 11:05:36 [main] LogUtils - ---------- Test started: testLoginSuccess ----------
+[INFO ] 22-06-2025 11:05:36 [main] LogUtils - Login
+[INFO ] 22-06-2025 11:05:37 [main] LogUtils - Test PASSED: testLoginSuccess
+[INFO ] 22-06-2025 11:05:37 [main] LogUtils - ======== Test Suite finished: FirstTest ========
+[INFO ] 22-06-2025 11:21:04 [main] LogUtils - ======== Test Suite started: FirstTest ========
+[INFO ] 22-06-2025 11:21:04 [main] LogUtils - ---------- Test started: LoginWithInvalidEmail ----------
+[INFO ] 22-06-2025 11:21:08 [main] LogUtils - Test PASSED: LoginWithInvalidEmail
+[INFO ] 22-06-2025 11:21:08 [main] LogUtils - ---------- Test started: LoginWithWrongPassword ----------
+[INFO ] 22-06-2025 11:21:09 [main] LogUtils - Test PASSED: LoginWithWrongPassword
+[INFO ] 22-06-2025 11:21:09 [main] LogUtils - ---------- Test started: testLoginSuccess ----------
+[INFO ] 22-06-2025 11:21:09 [main] LogUtils - Login
+[INFO ] 22-06-2025 11:21:09 [main] LogUtils - Test PASSED: testLoginSuccess
+[INFO ] 22-06-2025 11:21:09 [main] LogUtils - ======== Test Suite finished: FirstTest ========
+[INFO ] 22-06-2025 11:26:42 [main] LogUtils - ======== Test Suite started: FirstTest ========
+[INFO ] 22-06-2025 11:26:43 [main] LogUtils - ---------- Test started: LoginWithInvalidEmail ----------
+[INFO ] 22-06-2025 11:26:50 [main] LogUtils - Test PASSED: LoginWithInvalidEmail
+[INFO ] 22-06-2025 11:26:50 [main] LogUtils - ---------- Test started: LoginWithWrongPassword ----------
+[INFO ] 22-06-2025 11:26:50 [main] LogUtils - Test PASSED: LoginWithWrongPassword
+[INFO ] 22-06-2025 11:26:50 [main] LogUtils - ---------- Test started: testLoginSuccess ----------
+[INFO ] 22-06-2025 11:26:50 [main] LogUtils - Login
+[INFO ] 22-06-2025 11:26:50 [main] LogUtils - Test PASSED: testLoginSuccess
+[INFO ] 22-06-2025 11:26:51 [main] LogUtils - ======== Test Suite finished: FirstTest ========

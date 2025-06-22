@@ -1,18 +1,29 @@
 package careerNest.test.auth;
 
 import careerNest.api.AuthenticationAPI;
+import careerNest.helper.LogUtils;
 import careerNest.helper.PropertyReader;
+import careerNest.listener.TestListener;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import io.restassured.response.Response;
-import org.junit.jupiter.api.Test;
+//import org.junit.jupiter.api.Test;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
+@Listeners(TestListener.class)
 public class LoginTest {
 
     // TC_001_[Authentication] login with valid credential
-    @Test
+    @Test(description = "Verify login success")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("User logs in with valid credentials")
     public void testLoginSuccess() {
+        LogUtils.info("Login");
         String loginBody = String.format("{\"username\":\"%s\", \"password\":\"%s\"}",
                 PropertyReader.get("auth.username"),
                 PropertyReader.get("auth.password"));

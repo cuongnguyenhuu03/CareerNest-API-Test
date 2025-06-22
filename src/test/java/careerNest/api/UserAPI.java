@@ -1,4 +1,4 @@
 package careerNest.api;
 
-public class CategoryAPI {
+public class UserAPI {
 }
